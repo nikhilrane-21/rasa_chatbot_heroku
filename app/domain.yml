@@ -5,6 +5,8 @@ intents:
   - charges
   - extend_connection
   - bye
+  - garbage
+  - more_assistance
 
 responses:
    utter_greet:
