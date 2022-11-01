@@ -33,8 +33,12 @@
 - Thanks.
 - No more help required.
 
-## intent:out_of_scope
+
+## intent:garbage
 - I want to order food
 - What is 2 + 2?
 - Who's the US President?
 - I want water connection
+- qawsedrftgyhuj
+- lmknjbhvg234
+- bot or human
