@@ -17,10 +17,10 @@ responses:
    utter_charges:
        - text: "For a new temporary electricity connection, you have to submit a one-time fees of Rs 2000. In addition, you have to submit a deposit of Rs 10000, which will be refunded to you at the expiry of temporary connection period."
    utter_extend_connection:
-       - text: "Short Term Temporary connection can not be extended. Incase you want a new temporary connection, you can either visit https://energy.rajasthan.gov.in/content/raj/energy-department/en/help.html or type “TPDDL NEW” and send to 56161 OR Visit nearest District Consumer Care Centre."
+       - text: "Short Term Temporary connection can not be extended. Incase you want a new temporary connection, you can either visit https://energy.rajasthan.gov.in/content/raj/energy-department/en/help.html or type “TPDDL NEW” and send to 56161 or Visit nearest District Consumer Care Centre."
    utter_bye:
        - text: "Thank you for contacting us. Have a great day ahead!"
-   utter_out_of_scope:
+   utter_garbage:
        - text: "I am sorry I wont be able to assist you on this. You can call 181 to connect with the right agent."
    utter_more_assistance:
        - text: "Is there anything else I can help you with?"
