@@ -1,31 +1,39 @@
-## happy path
+## greet and apply
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+* apply_new_connection
+  - utter_apply_new_connection
+  - utter_more_assistance
 
-## sad path 1
+## greet and documents
+* greet 
+  - utter_greet
+* documents_req
+  - utter_documents_req
+  - utter_more_assistance
+
+## greet and charges
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+* charges
+  - utter_charges
+  - utter_more_assistance
 
-## sad path 2
+## greet and extend
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+* extend_connection
+  - utter_extend_connection
+  - utter_more_assistance
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+## greet and bye
+* greet
+  - utter_greet 
+* bye
+  - utter_bye
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+## greet and outofscope
+* greet
+  - utter_greet
+* out_of_scope
+  - utter_out_of_scope

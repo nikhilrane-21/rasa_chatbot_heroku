@@ -1,56 +1,40 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+- Hi
+- Hey!
+- Hello
+- Good day
+- Good morning
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:apply_new_connection
+- I want to get a new connection.
+- How to get a new connection?
+- Can you tell me the process for a new connection?
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:documents_req
+- What are the documents required?
+- Can you tell me the documents required?
+- What are the document requirements for a new connection?
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:charges
+- What are the charges for a new connection?
+- What is the fees?
+- How much money is required to get a new connection?
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:extend_connection
+- How can I extend temporary connection duration?
+- I want to extend the connection.
+- My connection is over.
+- My connection is expired.
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:bye
+- Thanks for the help.
+- Bye.
+- Got it. Thanks.
+- Thanks.
+- No more help required.
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:out_of_scope
+- I want to order food
+- What is 2 + 2?
+- Who's the US President?
+- I want water connection
