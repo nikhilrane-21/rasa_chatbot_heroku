@@ -32,8 +32,9 @@
 * bye
   - utter_bye
 
-## greet and outofscope
+## greet and garbage
 * greet
   - utter_greet
-* out_of_scope
-  - utter_out_of_scope
+* garbage
+  - utter_garbage
+  - utter_more_assistance
