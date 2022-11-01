@@ -1,33 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charSet="UTF-8">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" type="text/css" href="static/css/materialize.min.css">
+
+    <!--Main css-->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <title>Test page</title>
 </head>
 <body>
-<h1>Test page</h1>
-<div id="webchat"/>
-<script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+<h1>SAMPLE WEBSITE PAGE...</h1>
 
-<script>!(function () {
-  let e = document.createElement("script"),
-    t = document.head || document.getElementsByTagName("head")[0];
-  (e.src =
-    "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
-    // Replace 1.x.x with the version that you want
-    (e.async = !0),
-    (e.onload = () => {
-      window.WebChat.default(
-        {
-          customData: { language: "en" },
-          socketUrl: "https://4ca6-106-79-209-31.in.ngrok.io",
-          // add other props here
-        },
-        null
-      );
-    }),
-    t.insertBefore(e, t.firstChild);
-})();
-</script>
+
+
+<!--<div id="webchat"/>-->
+<!--<script>!(function () {-->
+<!--  let e = document.createElement("script"),-->
+<!--    t = document.head || document.getElementsByTagName("head")[0];-->
+<!--  (e.src = "./index.js"),-->
+<!--    (e.async = !0),-->
+<!--    (e.onload = () => {-->
+<!--      window.WebChat.default(-->
+<!--        {-->
+<!--          customData: { language: "en" },-->
+<!--          socketUrl: "http://serverforchatbot.herokuapp.com",-->
+<!--            title: "Chat Assistant",-->
+<!--            speechRecognition: "en-US",-->
+<!--            voiceLang: "en-US"-->
+<!--          // add other props here-->
+<!--        },-->
+<!--        null-->
+<!--      );-->
+<!--    }),-->
+<!--    t.insertBefore(e, t.firstChild);-->
+<!--})();-->
+<!--</script>-->
+
+
+
+<div class="container">
+
+
+
+        <!--chatbot widget -->
+        <div class="widget">
+            <div class="chat_header">
+
+                <!--Add the name of the bot here -->
+                <span class="chat_header_title">Chat AI</span>
+                <span class="dropdown-trigger" href='#' data-target='dropdown1'>
+                  <i class="material-icons"> more_vert </i>
+               </span>
+
+                <!-- Dropdown menu-->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#" id="clear">Clear</a></li>
+                    <li><a href="#" id="restart">Restart</a></li>
+                    <li><a href="#" id="close">Close</a></li>
+                </ul>
+            </div>
+
+            <!--Chatbot contents goes here -->
+            <div class="chats" id="chats">
+                <div class="clearfix"></div>
+
+            </div>
+
+            <!--keypad for user to type the message -->
+            <div class="keypad">
+                <textarea id="userInput" placeholder="Type a message..." class="usrInput"></textarea>
+                <div id="sendButton"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+            </div>
+        </div>
+
+        <!--bot profile-->
+        <div class="profile_div" id="profile_div">
+            <img class="imgProfile" src="static/img/boticonAvatar.PNG" />
+        </div>
+
+        <!-- Bot pop-up intro -->
+        <div class="tap-target" data-target="profile_div">
+            <div class="tap-target-content">
+                <h5 class="white-text">Hey 👋</h5>
+                <p class="white-text">I can answer your questions.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+<!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/materialize.min.js"></script>
+
+    <!--Main Script -->
+    <script type="text/javascript" src="static/js/script.js"></script>
+
+    <!--Chart.js Script -->
+    <script type="text/javascript" src="static/js/chart.min.js"></script>
+
+
+
 
 </body>
 </html>
